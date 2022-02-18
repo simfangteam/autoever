@@ -129,7 +129,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>SELA_Record_Page</content>
+        <content>SELA_Product_LineItem_Record_Page1</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -137,7 +137,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>SELA_Record_Page</content>
+        <content>SELA_Product_LineItem_Record_Page1</content>
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -146,7 +146,7 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <allowInChatterGroups>true</allowInChatterGroups>
+    <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
@@ -155,20 +155,17 @@
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>true</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>Private</externalSharingModel>
-    <label>SELA</label>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>SELA Product LineItem</label>
     <nameField>
-        <label>Sela Name</label>
-        <type>Text</type>
+        <displayFormat>SELAProduct{000000}</displayFormat>
+        <label>SELA Product LineItem</label>
+        <type>AutoNumber</type>
     </nameField>
-    <searchLayouts>
-        <searchResultsAdditionalFields>Total__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>DC_rate__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>List_Price_Total__c</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <searchLayouts></searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
