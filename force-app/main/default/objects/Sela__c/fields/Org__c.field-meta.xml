@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Org__c</fullName>
+    <externalId>false</externalId>
+    <label>Org</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>America</fullName>
+                <default>false</default>
+                <label>America</label>
+            </value>
+            <value>
+                <fullName>AP</fullName>
+                <default>false</default>
+                <label>AP</label>
+            </value>
+            <value>
+                <fullName>China</fullName>
+                <default>false</default>
+                <label>China</label>
+            </value>
+            <value>
+                <fullName>GMAU</fullName>
+                <default>false</default>
+                <label>GMAU</label>
+            </value>
+            <value>
+                <fullName>GMC</fullName>
+                <default>false</default>
+                <label>GMC</label>
+            </value>
+            <value>
+                <fullName>GME</fullName>
+                <default>false</default>
+                <label>GME</label>
+            </value>
+            <value>
+                <fullName>GMSR</fullName>
+                <default>false</default>
+                <label>GMSR</label>
+            </value>
+            <value>
+                <fullName>GS</fullName>
+                <default>false</default>
+                <label>GS</label>
+            </value>
+            <value>
+                <fullName>HMID DMS</fullName>
+                <default>false</default>
+                <label>HMID DMS</label>
+            </value>
+            <value>
+                <fullName>HQ</fullName>
+                <default>false</default>
+                <label>HQ</label>
+            </value>
+            <value>
+                <fullName>KIA HQ</fullName>
+                <default>false</default>
+                <label>KIA HQ</label>
+            </value>
+            <value>
+                <fullName>KIA India</fullName>
+                <default>false</default>
+                <label>KIA India</label>
+            </value>
+            <value>
+                <fullName>Korea</fullName>
+                <default>false</default>
+                <label>Korea</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

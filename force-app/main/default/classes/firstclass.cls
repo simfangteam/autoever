@@ -1,6 +1,7 @@
 public with sharing class firstclass {
     public firstclass() {
             String a = '123';
-            system.System.debug('11111');
+         String b = '123';
+        String c = '123';
     }
 }
