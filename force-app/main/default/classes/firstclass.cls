@@ -4,5 +4,6 @@ public with sharing class firstclass {
         String b = '123';
         String c = '123';
         // git cmd test
+        // git cmd test2
     }
 }
