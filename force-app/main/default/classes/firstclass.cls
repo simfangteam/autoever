@@ -3,8 +3,6 @@ public with sharing class firstclass {
         String a = '123';
         String b = '123';
         String c = '123';
-        // git test 
-        // git test 2
-        // git test 3
+        // git cmd test
     }
 }
