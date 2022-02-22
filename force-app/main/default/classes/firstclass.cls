@@ -11,5 +11,6 @@ public with sharing class firstclass {
         // multi test git cmd test1
     	// multi test git cmd test2
     	// multi test git cmd test3
+    	// multi test git cmd Auto Trigger
     }
 }
