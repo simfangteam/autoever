@@ -8,6 +8,9 @@ public with sharing class firstclass {
         // git cmd test3
         // git cmd test4
         // final git cmd test5
+<<<<<<< HEAD
         // multi test git cmd test1
+=======
+>>>>>>> origin/master
     }
 }
